@@ -4,7 +4,6 @@ metadata:
   name: acicAppapi
   description: The App API
   tags:
-    - App
     - rest
   links:
     - url: https://github.com/acirom/acic-api-book
