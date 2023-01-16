@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: acicAppapi
-  description: The App API
+  name: acicappapi
+  description: The app API
   tags:
-    - App
+    - app
     - rest
   links:
     - url: https://github.com/acirom/acic-api-book
@@ -13,7 +13,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: experimental
-  owner: teamacic
+  owner: teamdevacic
   definition: |
     openapi: 3.0.0
     servers:
@@ -22,10 +22,10 @@ spec:
       description: |-
         This is a sample Test API
       version: 1.0.0
-      title: Web API Acic
+      title: Web App API Acic
     tags:
-      - name: book
-        description: Test book CRUD
+      - name: app
+        description: Test app
     paths:
       /books:
         get:
