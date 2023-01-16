@@ -4,6 +4,7 @@ metadata:
   name: acicAppapi
   description: The App API
   tags:
+    - App
     - rest
   links:
     - url: https://github.com/acirom/acic-api-book
@@ -19,12 +20,12 @@ spec:
       - url: http://acic-api-book.cnr.tap.tanzu.vxlab.local
     info:
       description: |-
-        This is an App Test API
+        This is a sample Test API
       version: 1.0.0
-      title: App API Acic
+      title: Web API Acic
     tags:
-      - name: App
-        description: API App
+      - name: book
+        description: Test book CRUD
     paths:
       /books:
         get:
